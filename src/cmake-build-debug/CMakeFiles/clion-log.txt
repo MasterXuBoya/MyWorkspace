@@ -1,0 +1,47 @@
+/home/masterxu/CMake/cmake-3.9.2/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /home/masterxu/MyWorkspace/src
+-- Using CATKIN_DEVEL_PREFIX: /home/masterxu/MyWorkspace/src/cmake-build-debug/devel
+-- Using CMAKE_PREFIX_PATH: /home/masterxu/MyWorkspace/devel;/opt/ros/kinetic
+-- This workspace overlays: /home/masterxu/MyWorkspace/devel;/opt/ros/kinetic
+-- Using PYTHON_EXECUTABLE: /usr/bin/python
+-- Using Debian Python package layout
+-- Using empy: /usr/bin/empy
+-- Using CATKIN_ENABLE_TESTING: ON
+-- Call enable_testing()
+-- Using CATKIN_TEST_RESULTS_DIR: /home/masterxu/MyWorkspace/src/cmake-build-debug/test_results
+-- Found gmock sources under '/usr/src/gmock': gmock will be built
+-- Found gtest sources under '/usr/src/gmock': gtests will be built
+-- Using Python nosetests: /usr/bin/nosetests-2.7
+-- catkin 0.7.14
+-- BUILD_SHARED_LIBS is on
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- ~~  traversing 2 packages in topological order:
+-- ~~  - my_turtle
+-- ~~  - topic_demo
+-- ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-- +++ processing catkin package: 'my_turtle'
+-- ==> add_subdirectory(my_turtle)
+-- +++ processing catkin package: 'topic_demo'
+-- ==> add_subdirectory(topic_demo)
+-- Using these message generators: gencpp;geneus;genlisp;gennodejs;genpy
+-- topic_demo: 1 messages, 1 services
+-- Configuring done
+CMake Warning (dev) at topic_demo/CMakeLists.txt:214 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "topic_demo_generate_message_cpp" of target "server"
+  does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+CMake Warning (dev) at topic_demo/CMakeLists.txt:218 (add_dependencies):
+  Policy CMP0046 is not set: Error on non-existent dependency in
+  add_dependencies.  Run "cmake --help-policy CMP0046" for policy details.
+  Use the cmake_policy command to set the policy and suppress this warning.
+
+  The dependency target "topic_demo_generate_message_cpp" of target "client"
+  does not exist.
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+-- Generating done
+-- Build files have been written to: /home/masterxu/MyWorkspace/src/cmake-build-debug

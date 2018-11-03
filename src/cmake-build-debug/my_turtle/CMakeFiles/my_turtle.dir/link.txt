@@ -1,0 +1,1 @@
+/usr/bin/c++ -fPIC -g  -shared -Wl,-soname,libmy_turtle.so -o ../devel/lib/libmy_turtle.so CMakeFiles/my_turtle.dir/src/kbhit.cpp.o 
